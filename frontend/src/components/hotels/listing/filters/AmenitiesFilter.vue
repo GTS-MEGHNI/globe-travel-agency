@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div>
     <h2 class="mb-5 font-semibold">Amenities</h2>
@@ -23,11 +27,6 @@
 
 </template>
 
-<script>
-export default {
-  name: "AmenitiesFilterComponent"
-}
-</script>
 
 <style scoped>
 input[type="checkbox"] {

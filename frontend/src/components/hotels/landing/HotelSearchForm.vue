@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MainLayout from "../../shared/MainLayout.vue";
+import MainLayout from "../../../shared/MainLayout.vue";
 </script>
 
 
@@ -10,7 +10,7 @@ import MainLayout from "../../shared/MainLayout.vue";
       <div class="mb-8 grid grid-cols-4 gap-6">
 
         <div class="py-2 flex items-center relative border border-gray	rounded-md px-2">
-          <img src="../../assets/icons/dark-bed.svg" alt="">
+          <img src="../../../assets/icons/dark-bed.svg" alt="">
           <input class="w-full ml-2 outline-none bg-transparent py-[0.625rem]" type="text"
                  placeholder="Istanbul, Turkey">
           <span class="px-1 text-sm bg-white absolute -top-3 left-3">Enter destination</span>
@@ -20,14 +20,14 @@ import MainLayout from "../../shared/MainLayout.vue";
           <input class="w-full ml-2 outline-none bg-transparent py-[0.625rem]" type="text"
                  placeholder="Fri 12/2">
           <span class="text-sm bg-white absolute -top-3 left-3">Check In</span>
-          <img src="../../assets/icons/dark-calendar.svg" alt="">
+          <img src="../../../assets/icons/dark-calendar.svg" alt="">
         </div>
 
         <div class="py-2 flex items-center relative border border-gray	rounded-md px-2">
           <input class="w-full ml-2 outline-none bg-transparent py-[0.625rem]" type="text"
                  placeholder="Sun 12/4">
           <span class="text-sm bg-white absolute -top-3 left-3">Check out</span>
-          <img src="../../assets/icons/dark-calendar.svg" alt="">
+          <img src="../../../assets/icons/dark-calendar.svg" alt="">
         </div>
 
         <div class="py-2 flex items-center relative border border-gray	rounded-md px-2">
@@ -40,12 +40,12 @@ import MainLayout from "../../shared/MainLayout.vue";
 
       <div class="flex items-center justify-end gap-8">
         <button class="flex items-center font-normal">
-          <img class="mr-2" src="../../assets/icons/dark-add.svg" alt="">
+          <img class="mr-2" src="../../../assets/icons/dark-add.svg" alt="">
           Add Promo Code
         </button>
 
         <button class="py-[0.696rem] px-4 bg-primary flex items-center font-medium">
-          <img class="mr-2" src="../../assets/icons/dark-hotel.svg" alt="">
+          <img class="mr-2" src="../../../assets/icons/dark-hotel.svg" alt="">
           Show Places
         </button>
       </div>

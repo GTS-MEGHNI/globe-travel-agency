@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import NavigationComponent from "./views/navigation/NavigationComponent.vue";
-import FooterComponent from "./views/footer/FooterComponent.vue";
+import NavigationComponent from "./components/navigation/NavigationComponent.vue";
+import FooterComponent from "./components/footer/FooterComponent.vue";
 import {computed} from 'vue'
 import {useRoute} from 'vue-router'
-import NewsletterLayoutComponent from "./views/newsletter/NewsletterLayoutComponent.vue";
+import NewsletterLayoutComponent from "./components/newsletter/NewsletterLayoutComponent.vue";
 
 
 const shouldDisplayNavBar = computed(() => {

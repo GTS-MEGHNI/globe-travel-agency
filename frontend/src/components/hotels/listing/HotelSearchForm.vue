@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div class="search-container mt-12">
     <div class="bg-white rounded-2xl">
@@ -5,44 +9,40 @@
         <div class="grid grid-cols-4 gap-6 grow">
 
           <div class="input-container">
-            <img src="/icons/black-bed.svg" alt="">
+            <img src="../../../assets/icons/dark-bed.svg" alt="">
             <input type="text" placeholder="Istanbul, Turkey">
             <span>Enter destination</span>
           </div>
 
           <div class="input-container">
-            <img src="/icons/black-bed.svg" alt="">
             <input type="text" placeholder="Fri 12/2">
+            <img src="../../../assets/icons/dark-calendar.svg" alt="">
             <span>Check In</span>
           </div>
 
           <div class="input-container">
-            <img src="/icons/black-bed.svg" alt="">
             <input type="text" placeholder="Sun 12/4">
+            <img src="../../../assets/icons/dark-calendar.svg" alt="">
             <span>Check out</span>
           </div>
 
           <div class="input-container">
-            <img src="/icons/black-bed.svg" alt="">
+            <img src="../../../assets/icons/dark-user.svg" alt="">
             <input type="text" placeholder="1 room, 2 guests">
             <span>Rooms & Guests</span>
           </div>
+
         </div>
+
         <div class="w-fit">
           <button class="p-[1.141rem] bg-primary">
-            <img src="/icons/loop.svg" alt="">
+            <img src="../../../assets/icons/dark-loop.svg" alt="">
           </button>
         </div>
-
-
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
 
 <style scoped>
 
@@ -61,8 +61,6 @@ span {
 .search-container {
   box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
 }
-
-
 
 
 </style>

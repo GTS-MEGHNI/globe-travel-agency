@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
-import MainLayout from "../../shared/MainLayout.vue";
-import SectionHeader from "../../shared/SectionHeader.vue";
+import MainLayout from "../../../shared/MainLayout.vue";
+import SectionHeader from "../../../shared/SectionHeader.vue";
 </script>
 
 <template>
