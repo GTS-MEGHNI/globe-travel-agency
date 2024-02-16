@@ -63,9 +63,9 @@
       <hr class="border border-light-gray my-6">
     </div>
     <div class="w-full flex gap-6 items-center place-content-center	">
-      <img src="/icons/left-arrow.svg" alt="">
+      <img src="../../../assets/icons/dark-left-arrow.svg" alt="">
       <p>1 of 40</p>
-      <img src="/icons/right-arrow.svg" alt="">
+      <img src="../../../assets/icons/dark-right-arrow.svg" alt="">
     </div>
   </div>
 </template>

@@ -1,8 +1,8 @@
 // noinspection TypeScriptValidateTypes
 
 import {createRouter, createWebHistory} from 'vue-router'
-import HotelDetailsComponent from '../views/hotel/hotel-details/HotelDetailsLayoutComponent.vue'
-import HotelListingLayoutComponent from '../views/HotelListing.vue'
+import HotelBookingDetails from '../views/HotelBookingDetails.vue'
+import HotelListing from '../views/HotelListing.vue'
 import HotelBookingComponent from '../views/hotel/booking/HotelBookingLayoutComponent.vue'
 import BookingDetailsLayoutComponent from '../views/hotel/booking/details/BookingDetailsLayoutComponent.vue'
 import Home from "../views/Home.vue";
@@ -20,11 +20,11 @@ const router = createRouter({
         name: 'hotel'
     }, {
         path: '/hotel/listing',
-        component: HotelListingLayoutComponent,
+        component: HotelListing,
         name: 'hotel-listing',
     }, {
         path: '/hotel/details',
-        component: HotelDetailsComponent,
+        component: HotelBookingDetails,
         name: 'hotel-details',
     }, {
         path: '/hotel/booking',

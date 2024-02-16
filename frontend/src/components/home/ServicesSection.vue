@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MainLayout from "../../shared/MainLayout.vue";
+import MainLayout from "../shared/MainLayout.vue";
 import Service from "./Service.vue";
 </script>
 

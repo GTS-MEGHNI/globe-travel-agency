@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import LayoutComponent from '../../shared/MainLayout.vue'
+import LayoutComponent from '../shared/MainLayout.vue'
 /**/
 </script>
 

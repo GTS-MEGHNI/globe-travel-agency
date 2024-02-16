@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import MainLayout from "../../shared/MainLayout.vue";
-import SeeAllButtonComponent from "../../shared/OutlinedButton.vue";
+import MainLayout from "../shared/MainLayout.vue";
+import SeeAllButtonComponent from "../shared/OutlinedButton.vue";
 import DestinationCard from "./DestinationCard.vue";
 </script>
 

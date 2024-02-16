@@ -7,7 +7,7 @@
     <img class="rounded-2xl" src="/map.jpg" alt="">
 
     <div class="flex items-center gap-1 mt-2">
-      <img src="/icons/location.svg" alt="">
+      <img src="../../../assets/icons/dark-location.svg" alt="">
       <p class="text-sm">Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
     </div>
 
@@ -15,11 +15,11 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps} from "vue";
 
-let props = defineProps({
+defineProps({
   address: String
 })
+
 </script>
 
 <style scoped>

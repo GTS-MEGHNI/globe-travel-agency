@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import InputComponent from "./SearchInput.vue";
-import MainLayout from "../../shared/MainLayout.vue";
+import MainLayout from "../shared/MainLayout.vue";
 </script>
 
 <template>
