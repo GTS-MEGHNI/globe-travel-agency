@@ -3,8 +3,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import HotelBookingDetails from '../views/HotelBookingDetails.vue'
 import HotelListing from '../views/HotelListing.vue'
-import HotelBookingComponent from '../views/hotel/booking/HotelBookingLayoutComponent.vue'
-import BookingDetailsLayoutComponent from '../views/hotel/booking/details/BookingDetailsLayoutComponent.vue'
+import HotelBookingComponent from '../views/HotelBookingCheckout.vue'
+import HotelBookingCheckoutDetails from '../views/HotelBookingCheckoutDetails.vue'
 import Home from "../views/Home.vue";
 import Hotel from "../views/HotelLanding.vue";
 
@@ -32,7 +32,7 @@ const router = createRouter({
         name: 'hotel-booking',
     }, {
         path: '/hotel/booking/details',
-        component: BookingDetailsLayoutComponent,
+        component: HotelBookingCheckoutDetails,
         name: 'hotel-booking-details',
     }]
 })

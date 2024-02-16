@@ -129,7 +129,7 @@
 
 <script setup lang="ts">
 
-import LayoutComponent from "../../../../components/shared/MainLayout.vue";
+import LayoutComponent from "../components/shared/MainLayout.vue";
 </script>
 
 <style scoped>
