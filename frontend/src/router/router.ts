@@ -1,18 +1,18 @@
 // noinspection TypeScriptValidateTypes
 
 import {createRouter, createWebHistory} from 'vue-router'
-import HomeViewComponent from '../views/home/HomeLayoutComponent.vue'
 import FlightViewComponent from '../views/hotel/home/HotelLayoutComponent.vue'
 import HotelDetailsComponent from '../views/hotel/hotel-details/HotelDetailsLayoutComponent.vue'
 import HotelListingLayoutComponent from '../views/hotel/listing/HotelListingLayoutComponent.vue'
 import HotelBookingComponent from '../views/hotel/booking/HotelBookingLayoutComponent.vue'
 import BookingDetailsLayoutComponent from '../views/hotel/booking/details/BookingDetailsLayoutComponent.vue'
+import Home from "../views/Home.vue";
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [{
         path: '/',
-        component: HomeViewComponent,
+        component: Home,
         name: 'home'
     }, {
         path: '/hotel',

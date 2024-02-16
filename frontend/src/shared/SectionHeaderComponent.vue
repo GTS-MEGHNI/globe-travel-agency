@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import SeeAllButtonComponent from "./SeeAllButtonComponent.vue";
+import SeeAllButtonComponent from "./OutlinedButton.vue";
 import {defineProps} from "vue";
 
 let props = defineProps({

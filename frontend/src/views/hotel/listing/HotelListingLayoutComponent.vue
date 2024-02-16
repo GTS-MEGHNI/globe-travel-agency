@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import LayoutComponent from "../../../shared/LayoutComponent.vue";
+import LayoutComponent from "../../../shared/MainLayout.vue";
 import SearchComponent from "./SearchComponent.vue";
 import SearchFiltersComponent from "./SearchFiltersComponent.vue";
 import ResultsComponent from "./ResultsComponent.vue";

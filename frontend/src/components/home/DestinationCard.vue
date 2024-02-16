@@ -10,13 +10,10 @@
 
 <script setup lang="ts">
 import {defineProps} from "vue";
-
-
-let props = defineProps({
-  city: String,
-  thumbnailUrl: String
+defineProps({
+  city: null,
+  thumbnailUrl: null
 })
-
 </script>
 
 <style scoped>

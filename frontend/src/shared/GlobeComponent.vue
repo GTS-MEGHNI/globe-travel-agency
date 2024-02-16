@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 import SectionHeaderComponent from "./SectionHeaderComponent.vue";
-import LayoutComponent from "./LayoutComponent.vue";
+import LayoutComponent from "./MainLayout.vue";
 
 </script>
 

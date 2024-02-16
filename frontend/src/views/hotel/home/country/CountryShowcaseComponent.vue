@@ -43,7 +43,7 @@
 </template>
 
 <script setup lang="ts">
-import LayoutComponent from "../../../../shared/LayoutComponent.vue";
+import LayoutComponent from "../../../../shared/MainLayout.vue";
 import SectionHeaderComponent from "../../../../shared/SectionHeaderComponent.vue";
 
 </script>

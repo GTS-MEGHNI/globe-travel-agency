@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import LayoutComponent from "../../../shared/LayoutComponent.vue";
+import LayoutComponent from "../../../shared/MainLayout.vue";
 import BookingRoomComponent from "./room/BookingRoomComponent.vue";
 import BookingPaymentOptionsComponent from "./payment-options/BookingPaymentOptionsComponent.vue";
 import BookingAuthComponent from "./auth/BookingAuthComponent.vue";
