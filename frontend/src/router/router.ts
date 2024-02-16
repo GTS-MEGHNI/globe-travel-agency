@@ -1,12 +1,12 @@
 // noinspection TypeScriptValidateTypes
 
 import {createRouter, createWebHistory} from 'vue-router'
-import FlightViewComponent from '../views/hotel/home/HotelLayoutComponent.vue'
 import HotelDetailsComponent from '../views/hotel/hotel-details/HotelDetailsLayoutComponent.vue'
 import HotelListingLayoutComponent from '../views/hotel/listing/HotelListingLayoutComponent.vue'
 import HotelBookingComponent from '../views/hotel/booking/HotelBookingLayoutComponent.vue'
 import BookingDetailsLayoutComponent from '../views/hotel/booking/details/BookingDetailsLayoutComponent.vue'
 import Home from "../views/Home.vue";
+import Hotel from "../views/Hotel.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -16,7 +16,7 @@ const router = createRouter({
         name: 'home'
     }, {
         path: '/hotel',
-        component: FlightViewComponent,
+        component: Hotel,
         name: 'hotel'
     }, {
         path: '/hotel/listing',

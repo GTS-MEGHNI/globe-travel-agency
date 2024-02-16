@@ -9,12 +9,12 @@ import MainLayout from "../../shared/MainLayout.vue";
       <div class="pl-8 pr-4 pt-4">
         <div class="flex gap-8">
           <button class="button">
-            <img src="../../assets/icons/black-airplane.svg" alt="">
+            <img src="../../assets/icons/dark-airplane.svg" alt="">
             Flights
           </button>
           <div class="h-12 border-l-2 border-gray"></div>
           <button class="button">
-            <img src="../../assets/icons/black-bed.svg" alt="">
+            <img src="../../assets/icons/dark-bed.svg" alt="">
             Stays
           </button>
         </div>
@@ -26,11 +26,11 @@ import MainLayout from "../../shared/MainLayout.vue";
         </div>
         <div class="flex items-center mt-8 justify-end pb-8">
           <button class="text-sm flex items-center font-medium mr-6">
-            <img class="mr-2" src="../../assets/icons/black-add.svg" alt="">
+            <img class="mr-2" src="../../assets/icons/dark-add.svg" alt="">
             Add Promo Code
           </button>
           <button class="bg-primary py-4 px-4 flex items-center font-medium text-sm">
-            <img class="mr-2" src="../../assets/icons/black-paper-plane.svg" alt="">
+            <img class="mr-2" src="../../assets/icons/dark-paper-plane.svg" alt="">
             Show Flights
           </button>
         </div>

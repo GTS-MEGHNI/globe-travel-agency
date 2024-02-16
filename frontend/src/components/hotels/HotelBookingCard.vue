@@ -16,13 +16,11 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps} from "vue";
-
-let props = defineProps({
-  backgroundUrl: String,
-  cityName: String,
-  content: String,
-  price: String
+defineProps({
+  backgroundUrl: null,
+  cityName: null,
+  content: null,
+  price: null
 })
 </script>
 

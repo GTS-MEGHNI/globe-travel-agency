@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import SectionHeaderComponent from "./SectionHeaderComponent.vue";
+import SectionHeaderComponent from "./SectionHeader.vue";
 import LayoutComponent from "./MainLayout.vue";
 
 </script>
