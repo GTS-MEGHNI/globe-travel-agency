@@ -1,6 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Navigation from "./Navigation.vue";
+</script>
 <template>
   <div class="rounded-3xl z-10 mt-[1.875rem] bg-[url('/home/showcase.jpg')] h-[37.5rem] bg-cover relative">
+    <Navigation />
     <div class="pt-20 flex flex-col items-center">
       <h2 class="text-5xl text-white">Helping Others</h2>
       <h1 class="mt-2 text-8xl text-white">LIVE & TRAVEL</h1>
